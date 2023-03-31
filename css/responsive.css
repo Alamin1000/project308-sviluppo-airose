@@ -1,0 +1,120 @@
+
+
+@media (max-width: 1399px) {
+ 
+}
+
+
+@media (max-width: 1199px) {
+    .int-quote-2 {
+        left: 25px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header-section__inner {
+        justify-content: center;
+        display: flex;
+    }
+    .header-in {
+        padding: 40px 0 15px;
+    }
+
+    .int-quote-2 {
+        padding: 20px 20px;
+        width: 315px;
+        top: 110px;
+        left: 19px;
+        border-bottom-right-radius: 0;
+    }
+    .int-quote h3 {
+        font-size: 20px;
+        margin: 0 0 5px;
+    }
+    .int-quote::after {
+        left: -19px;
+    }
+
+    .int__image-magic {
+        width: 127px;
+        left: 40px;
+        top: -773px;
+    }
+    .int__image-ai-women {
+        position: absolute;
+        right: -155px;
+        top: 220px;
+        width: 1100px;
+    }
+
+    .int-section__inner {
+        max-height: calc(100vh - 109px);
+        height: 100vh;
+        position: relative;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__logo {
+        display: block;
+        width: 134px;
+    }
+    .int-quote-2 {
+        padding: 20px 15px 20px 20px;
+        width: 255px;
+        top: 90px;
+    }
+    .int-quote h3 {
+        font-size: 16px;
+        margin: 0px 0 4px;
+    }
+    .int-quote p {
+        font-size: 16px;
+    }
+    .int-quote h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .int-quote::after {
+        left: -14px;
+    }
+    .int__image-ai-women {
+        right: unset;
+        left: -140px;
+        top: 340px;
+        width: 600px;
+    }
+    .int__image-magic {
+        width: 67px;
+        left: 24px;
+        top: -178px;
+    }
+    .int-section__inner {
+        max-height: calc(100vh - 97px);
+    }
+    .float-chat {
+        width: 85px;
+        bottom: 22px;
+        right: 22px;
+    }
+
+    .fl-ch-mbl-ellipse {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 90;
+        max-width: initial;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 390px) {
+ 
+}
